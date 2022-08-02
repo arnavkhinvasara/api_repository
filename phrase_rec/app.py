@@ -48,4 +48,4 @@ def rec_returner():
 	return json_dump
 	
 if __name__ == "__main__":
-	app.run(debug='true', port=80)
+	app.run(port=80, host="0.0.0.0")
